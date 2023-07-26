@@ -1,0 +1,26 @@
+
+
+/* Mobile S responsive */
+@media screen and (max-width:375px) {
+    .carousal-bottom{
+        display: none;
+    }
+}
+
+/* Mobile L responsive */
+
+@media screen and (min-width:376px) and (max-width:425px) {
+
+      .carousal-bottom{
+        display: none;
+    }
+}
+
+/* Tablet responsive  */
+
+@media screen and (min-width:426px) and (max-width:768px) {
+
+    .carousal-bottom{
+      display: none;
+  }
+}
