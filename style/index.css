@@ -8,6 +8,9 @@
     .carousal-bottom{
         display: none;
     }
+    .team-picture{
+        margin:auto
+      }
 }
 
 /* Mobile L responsive */
@@ -16,6 +19,12 @@
 
       .carousal-bottom{
         display: none;
+    }
+    .team-picture{
+      margin:auto
+    }
+    .team-picture{
+      
     }
 }
 
