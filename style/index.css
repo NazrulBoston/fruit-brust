@@ -1,38 +1,36 @@
-*{
+* {
     font-family: 'Lato', sans-serif;
 }
 
 
 /* Mobile S responsive */
 @media screen and (max-width:375px) {
-    .carousal-bottom{
+    .carousal-bottom {
         display: none;
     }
-    .team-picture{
-        margin:auto
-      }
+
+    
 }
 
 /* Mobile L responsive */
 
 @media screen and (min-width:376px) and (max-width:425px) {
 
-      .carousal-bottom{
+    .carousal-bottom {
         display: none;
     }
-    .team-picture{
-      margin:auto
+
+    .team-picture {
+        margin: auto;
     }
-    .team-picture{
-      
-    }
+    
 }
 
 /* Tablet responsive  */
 
 @media screen and (min-width:426px) and (max-width:768px) {
 
-    .carousal-bottom{
-      display: none;
-  }
+    .carousal-bottom {
+        display: none;
+    }
 }
