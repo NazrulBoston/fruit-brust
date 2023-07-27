@@ -1,13 +1,15 @@
-
-
-
 /* Mobile S responsive */
 @media screen and (max-width:375px) {
     .carousal-bottom {
         display: none;
     }
 
-    
+    .search-button {
+        display: none;
+    }
+
+
+
 }
 
 /* Mobile L responsive */
@@ -21,7 +23,15 @@
     .team-picture {
         margin: auto;
     }
-    
+
+    .search-button {
+        display: none;
+    }
+.logo-items{
+    display: flex;
+    justify-content:flex-end;
+}
+   
 }
 
 /* Tablet responsive  */

@@ -58,17 +58,28 @@
         <!-- Navbar starts here -->
 
         <nav class=" my-12 navbar bg-[#F85559] rounded-full">
-            <div class="navbar-center hidden lg:flex">
-                <ul class="lato font-semibold menu menu-horizontal px-1 text-white">
-                    <li><a>Home</a></li>
-                    <li><a>About Us</a></li>
-                    <li><a>Shop</a></li>
-                    <li><a>All Fruits</a></li>
+            <div class=" menu-items navbar-center hidden lg:flex">
+                <ul class="  lato font-semibold menu menu-horizontal px-1 text-white">
+
+                    <div class="flex logo-items">
+                        <div class=" flex pt-2">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </div>
+
+
+                        <div class=" flex justify-center items-center lg:pl-36 gap-3">
+                            <img src="./images/logo.png" alt="">
+                            <p class="text-white font-semibold text-lg ">Fruit Burst</p>
+                        </div>
+                    </div>
+
                 </ul>
-                <div class="flex justify-center items-center lg:pl-36 gap-3">
-                    <img src="./images/logo.png" alt="">
-                    <p class="text-white font-semibold text-lg ">Fruit Burst</p>
-                </div>
+
+
+
 
             </div>
             <div class="navbar-start">
@@ -83,7 +94,7 @@
                 </div>
             </div>
 
-            <div class="navbar-end relative ">
+            <div class=" search-button navbar-end relative ">
                 <input class=" h-14 w-96 rounded-3xl mr-5  " type="search" name="" id="" placeholder="   Search here">
                 <i class=" absolute fa-solid fa-magnifying-glass pr-14 h-5 w-5 "></i>
             </div>
@@ -370,7 +381,7 @@
                     </div>
 
 
-                <!-- Open the modal using ID.showModal() method -->
+                    <!-- Open the modal using ID.showModal() method -->
 
                     <div class="text-center ">
                         <button class=" text-red-500 mx-auto " onclick="my_modal_2.showModal()">Details</button>
